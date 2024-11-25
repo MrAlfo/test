@@ -1,0 +1,132 @@
+/* Ana Container */
+.page-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  
+    .filter-section {
+      width: 25%;
+      border-right: 1px solid #ddd;
+      padding-right: 20px;
+  
+      h6 {
+        margin-bottom: 16px;
+        font-weight: 600;
+        color: #333;
+      }
+  
+      .filter-category {
+        margin-bottom: 24px;
+  
+        .filter-title {
+          margin-bottom: 8px;
+          font-weight: 500;
+          color: #555;
+        }
+  
+        .filter-option {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          label {
+            font-size: 14px;
+            color: #666;
+          }
+  
+          .MuiCheckbox-root {
+            color: #91b6c0;
+  
+            &.Mui-checked {
+              color: #83b190;
+            }
+          }
+        }
+      }
+    }
+  
+    .results-section {
+      width: 75%;
+  
+      .results-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+  
+        h6 {
+          font-weight: 600;
+          color: #333;
+        }
+  
+        .sort-select {
+          min-width: 150px;
+  
+          .MuiSelect-root {
+            font-size: 14px;
+            color: #555;
+          }
+        }
+      }
+  
+      .event-card {
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+  
+        &:hover {
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          transform: translateY(-5px);
+        }
+  
+        img {
+          width: 100%;
+          height: 140px;
+          object-fit: cover;
+        }
+  
+        .event-content {
+          padding: 16px;
+  
+          h6 {
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+          }
+  
+          p {
+            font-size: 14px;
+            color: #666;
+          }
+        }
+  
+        .event-actions {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px 16px;
+          border-top: 1px solid #eee;
+  
+          .price {
+            font-weight: 600;
+            color: #83b190;
+          }
+  
+          .details-btn {
+            font-size: 14px;
+            color: #fff;
+            background-color: #91b6c0;
+            border: none;
+            border-radius: 4px;
+            padding: 6px 12px;
+            cursor: pointer;
+  
+            &:hover {
+              background-color: #83b190;
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,22 @@
+@import './_variables.scss';
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: $light;
+    color: $dark;
+}
+
+.overlay {
+    transition: opacity 0.3s ease;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}

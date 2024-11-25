@@ -1,0 +1,19 @@
+.login-container {
+    background-image: url('../../../public/assets/images/MuseumsVisit.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 100%;
+    text-align: center;
+}
+
+.login-logo {
+    width: 100px;
+    margin-bottom: 16px;
+}
